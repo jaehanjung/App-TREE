@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* CSS reset */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* 링크 스타일 */
+
+a {
+    text-decoration: none;
+}
+
+span,
+p,
+li,
+a {
+    color: #111111;
+}
+
+/* 공통 스타일 */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.content {
+    width: 1255px;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 헤더영역 */
+
+.header {
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* 메인영역 */
+main {
+    background-color: #f3f3f3;
+}
+
+.guide_page {
+    padding-bottom: 120px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 50px;
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    position: relative;
+    z-index: 2;
+}
+
+.guide_page_contents {
+    width: 1053px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.guide_page_title {
+    height: 94px;
+    border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.guide_page_title p {
+    height: 42px;
+    line-height: 42px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    color: #3e3e3e;
+    font-weight: 300;
+    letter-spacing: -4px;
+}
