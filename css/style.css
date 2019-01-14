@@ -340,17 +340,288 @@ legend {
 }
 
 .apptree_service .ser_Text {
-   padding-bottom: 60px;
-   margin-top: 20px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 22px;
 }
-.apptree_service .ser_Text .ser {
+
+.apptree_service .ser_Text .ser1 {
     float: left;
-    width: 215px;
-    margin-right: 90px;
-    margin-left: 45px;
+    width: 212px;
+    margin-right: 115px;
 }
-.apptree_service .ser_Text .serlast{
+
+.apptree_service .ser_Text .ser2 {
+    float: left;
+    width: 217px;
+    margin-right: 90px;
+}
+
+.apptree_service .ser_Text .ser3 {
+    float: left;
+    width: 270px;
+    margin-right: 91px;
+}
+
+.apptree_service .ser_Text .serlast {
     width: 200px;
     float: left;
     margin-right: 0px;
+}
+
+.ser .serTi {
+    color: #3e443b;
+    font-size: 23px;
+    font-weight: 700;
+    height: 26px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.ser .serTe {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    height: 41px;
+    line-height: 23px;
+    letter-spacing: -1.2px;
+    padding-top: 19px;
+    text-align: center;
+}
+
+/* 앱트리 슬라이드 영역 */
+.apptree_addlist_text {
+    display: block;
+    margin-bottom: 80px;
+    padding-top: 60px;
+}
+
+.apptree_addlist_title {
+    color: #3e3e3e;
+    height: 38px;
+    display: block;
+    line-height: 38px;
+    font-size: 40px;
+    letter-spacing: -3px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.apptree_addlist_subtitle {
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    color: #878787;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+/* 스와이프 css영역 */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* 공지사항 영역 */
+.apptree_Notice {
+    background-color: #f7fbf7;
+}
+
+.apptree_Notice_content .left {
+    float: left;
+}
+
+.apptree_Notice_text {
+    display: block;
+    padding-top: 60px;
+}
+
+.apptree_Notice_text .apptree_Notice_title {
+    color: #3e3e3e;
+    height: 38px;
+    display: block;
+    line-height: 38px;
+    font-size: 40px;
+    letter-spacing: -3px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.apptree_Notice_text .apptree_Notice_subtitle {
+    text-align: left;
+    line-height: 26px;
+    font-size: 18px;
+    color: #878787;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+.apptree_Notice_content .right {
+    float: right;
+}
+
+
+.apptree_NoticeBox {
+    width: 636px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.apptree_Notice_content .apptree_NoticeBox li {
+    height: 50px;
+    border-bottom: 1px solid #dcdbdb;
+    line-height: 50px;
+}
+
+.apptree_NoticeBox .Notice_date {
+    width: 98px;
+    height: 50px;
+    color: #01c932;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-right: 18px;
+    display: block;
+    float: left;
+}
+
+.apptree_NoticeBox .apptree_NoticeBox li a {
+    height: 50px;
+    color: #222222;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    display: block;
+    float: left;
+    letter-spacing: -0.3px;
+}
+
+/* 월간랭킹영역 */
+.apptree_ranking_content .left {
+    float: left;
+}
+
+.apptree_ranking_content .right {
+    float: right;
+}
+
+.apptree_ranking_text {
+    display: block;
+    padding-top: 60px;
+}
+
+.apptree_ranking_title {
+    color: #3e3e3e;
+    height: 38px;
+    display: block;
+    line-height: 38px;
+    font-size: 40px;
+    letter-spacing: -3px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.apptree_ranking_subtitle {
+    text-align: left;
+    line-height: 26px;
+    font-size: 18px;
+    color: #878787;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+.apptree_rankBox {
+    width: 636px;
+    height: 255px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.apptree_rankBox li {
+    height: 50px;
+    border-bottom: 1px solid #dcdbdb;
+    line-height: 50px;
+}
+.apptree_ranking .apptree_rankBox li .rank_num {
+    width: 41px;
+    height: 50px;
+    text-align: center;
+    color: #01c932;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    float: left;
+    margin-right: 41px;
+}
+.apptree_ranking .apptree_rankBox li .rank_nik {
+    width: 108px;
+    height: 50px;
+    text-align: left;
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    float: left;
+}
+
+
+.apptree_ranking .apptree_rankBox li .rank_mo {
+    width: 179px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-weight: 400;
+    color: #e85050;
+}
+.apptree_ranking .apptree_rankBox li .rank_app {
+    width: 238px;
+    height: 50px;
+    float: left;
+}
+.apptree_ranking .apptree_rankBox li .rank_app li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 3px;
+    position: relative;
+    border-bottom: none;
+    top: 9px;
+}
+.apptree_ranking .apptree_rankBox li .rank_app li img {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+}
+
+/* footer영역 */
+
+
+.footer_top_content {
+    background-color: #696969;
+}
+.footer_bottom_content {
+    background-color: #535353;
 }
