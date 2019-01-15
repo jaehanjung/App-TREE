@@ -66,10 +66,105 @@ body {
 /* 헤더영역 */
 
 .header {
-    background-color: #fff;
+    min-width: 1200px;
+    max-width: 100%;
     height: 80px;
+    background-color: #fff;
     border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
 }
+
+.header_menu {
+    float: left;
+}
+
+.nav {
+    float: right;
+    line-height: 80px;
+    margin-right: 50px;
+}
+
+.gnb li {
+    float: left;
+    text-align: left;
+    margin-right: 58px;
+}
+
+.gnb li a {
+    font-size: 16px;
+    color: #818181;
+}
+
+.gnb li a:hover {
+    color: #00c931;
+}
+
+.loginout {
+    cursor: pointer;
+    margin-right: 0px;
+    width: 76px;
+    height: 30px;
+    text-align: center;
+    background-color: #dcdcdc;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    line-height: 28px;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    right: 0;
+    margin-top: 27px;
+    letter-spacing: -1px;
+}
+
+/* 서브헤더 */
+.dropSubGnb {
+    display: none;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    z-index: 99;
+}
+/* 호버시 작동되게 했는데 왜적용이 안될까.. */
+.gnb li a:hover .dropSubGnb{
+    display: block;
+}
+
+.dropSubGnb .drop_sub {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dropSubGnb .drop_sub ul {
+    width: 336px;
+}
+
+.dropSubGnb .sub1 ul {
+    margin-left: 475px;
+}
+
+.dropSubGnb .drop_sub ul li a {
+    display: block;
+    width: 110px;
+    height: 63px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #757575;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropSubGnb .drop_sub ul li a:hover {
+    color: #fff;
+    background-color: #36af00;
+}
+
 
 /* 메인영역 */
 main {
