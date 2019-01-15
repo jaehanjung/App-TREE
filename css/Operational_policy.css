@@ -76,7 +76,7 @@ main {
     background-color: #f3f3f3;
 }
 
-.guide_page {
+.oper_page {
     padding-bottom: 120px;
     background-color: #fff;
     margin: 0 auto;
@@ -87,20 +87,20 @@ main {
     z-index: 2;
 }
 
-.guide_page_contents {
+.oper_page_contents {
     width: 1055px;
     position: relative;
     margin: 0 auto;
 }
 
-.guide_page_title {
+.oper_page_title {
     height: 94px;
     border-bottom: 1px solid #e1e1e1;
     box-sizing: border-box;
     margin-bottom: 50px;
 }
 
-.guide_page_title p {
+.oper_page_title p {
     height: 42px;
     line-height: 42px;
     display: block;
@@ -112,109 +112,80 @@ main {
     letter-spacing: -4px;
 }
 
-.tapBox {
-    margin-bottom: 20px;
-    font-weight: 400;
-    letter-spacing: -1px;
-}
-
-.tap {
-    display: block;
-    float: left;
-}
-
-.tap li {
-    display: block;
-    width: 102px;
-    height: 40px;
-    color: #b7b7b7;
-    font-size: 15px;
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 38px;
-    float: left;
-    margin-right: 10px;
-}
-
-.tap .on {
-    color: #00c931;
-    border: 1px solid #00c931;
-}
-
-.guide_Box {
-    width: 1055px;
-    height: auto;
-    border: 2px solid #e2e1e1;
-    box-sizing: border-box;
-}
-
-.guide_top {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 25px;
-    height: auto;
-    background-color: #f7fbf7;
-}
-
-.guide_top_bar {
-    display: block;
-    width: 50px;
-    height: 2px;
-    background-color: #00c931;
-    margin-bottom: 30px;
-}
-
-.guide_title {
+.oper_page_text_ti {
     font-size: 25px;
-    color: #3e3e3e;
-    letter-spacing: -1px;
-    line-height: 30px;
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-
-.guide_title_info {
-    font-size: 15px;
-    color: #727272;
+    height: 25px;
     line-height: 25px;
-    letter-spacing: -1px;
-    font-weight: 400;
-}
-
-.guide_text_content {
-    height: auto;
-    border-bottom: 1px solid #f5f5f5;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-
-.guide_text_content img {
-    margin-left: 50px;
-    margin-right: 80px;
-    width: 355px;
-    height: 235px;
-    float: left;
-}
-
-.guide_text_content_box {
-    float: left;
-}
-.guide_btn {
-    width: 175px;
-    height: 40px;
-    background: #fff;
-    border: 1px solid #00c931;
-    box-sizing: border-box;
-    border-radius: 3px;
-    margin-top: 35px;
-    text-align: center;
-    line-height: 38px;
     color: #00c931;
-    font-size: 15px;
-    letter-spacing: -0.5px;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
+
+.oper_page_text span {
+    color: #606060;
+    font-size: 15.5px;
+    display: block;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 25px;
+}
+
+.oper_page_Compliance {
+    margin-top: 50px;
+}
+
+.oper_ti::before {
+    content: "";
+    width: 1px;
+    border-left: 2px solid #00c931;
+    margin-right: 5px;
+}
+
+.oper_page_Compliance .oper_ti {
+    height: 20px;
+    line-height: 20px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.oper_page_Compliance .oper_t_box {
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.oper_page_Compliance .oper_t_box span {
+    font-weight: 400;
+    color: #797979;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.oper_page_Compliance .oper_num {
+    display: block;
+    width: 26px;
+    float: left;
+}
+
+.oper_page_Compliance .oper_text {
+    float: left;
+    width: 1015px;
+    display: block;
+}
+
+.oper_page_Compliance_footer {
+    margin-top: 80px;
+}
+
+.oper_page_Compliance_footer p {
+    line-height: 30px;
+    color: #606060;
+    font-size: 15.5px;
+    letter-spacing: -1px;
+}
+
 /* footer영역 */
 
 .footer {

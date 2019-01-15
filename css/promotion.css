@@ -182,6 +182,33 @@ main {
     letter-spacing: -1px;
     font-weight: 400;
 }
+.promotion_tip {
+    width: 55px;
+    height: 25px;
+    border-radius: 2px;
+    background: #00c931;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 35px 0px 15px 0px;
+}
+
+.guide_top_btn {
+    width: 175px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #00c931;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 38px;
+    color: #00c931;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
 
 .guide_text_content {
     height: auto;
@@ -201,6 +228,23 @@ main {
 .guide_text_content_box {
     float: left;
 }
+
+.promotion_img_box {
+    width: 430px;
+    height: 500px;
+    border: 1px solid #eeeeee;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    overflow: hidden;
+}
+.promotion_img_box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 .guide_btn {
     width: 175px;
     height: 40px;
@@ -215,6 +259,7 @@ main {
     font-size: 15px;
     letter-spacing: -0.5px;
 }
+
 /* footer영역 */
 
 .footer {
