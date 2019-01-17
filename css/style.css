@@ -81,7 +81,7 @@ body {
 .nav {
     float: right;
     line-height: 80px;
-    margin-right: 50px;
+    margin-right: 90px;
 }
 
 .gnb li {
@@ -99,23 +99,23 @@ body {
     color: #00c931;
 }
 
-.loginout {
-    cursor: pointer;
+.signBtn {
     margin-right: 0px;
-    width: 76px;
-    height: 30px;
+    width: 97px;
+    height: 37px;
     text-align: center;
-    background-color: #dcdcdc;
-    border: 1px solid #bbbbbb;
+    background-color: #00c931;
+    border: 1px solid #00b62d;
     box-sizing: border-box;
-    line-height: 28px;
+    line-height: 32px;
     color: #fff;
     border-radius: 5px;
     float: left;
     position: absolute;
     right: 0;
-    margin-top: 27px;
+    margin-top: 23px;
     letter-spacing: -1px;
+    cursor: pointer;
 }
 
 /* 서브헤더 */
@@ -130,8 +130,9 @@ body {
     top: 80px;
     z-index: 99;
 }
+
 /* 호버시 작동되게 했는데 왜적용이 안될까.. */
-.gnb li a:hover .dropSubGnb{
+.gnb li a:hover .dropSubGnb {
     display: block;
 }
 
