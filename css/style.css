@@ -121,7 +121,7 @@ body {
 
 /* 서브헤더 */
 .dropSubGnbsub1 {
-    min-width: 1200px;
+    min-width: 1255px;
     max-width: 100%;
     display: none;
     width: 100%;
@@ -139,7 +139,7 @@ body {
 }
 
 .dropSubGnbsub3 {
-    min-width: 1200px;
+    min-width: 1255px;
     max-width: 100%;
     display: none;
     width: 100%;
@@ -161,7 +161,7 @@ body {
 }
 
 .dropSubGnbsub4 {
-    min-width: 1200px;
+    min-width: 1255px;
     max-width: 100%;
     display: none;
     width: 100%;
