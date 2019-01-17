@@ -262,6 +262,8 @@ main {
     text-indent: 30px;
     display: block;
     overflow: hidden;
+    color: #656565;
+
 }
 
 .Notice_board_boardList .boradSubTxt {
