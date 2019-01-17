@@ -91,6 +91,7 @@ body {
 }
 
 .gnb li a {
+    display: block;
     font-size: 16px;
     color: #818181;
 }
@@ -149,6 +150,30 @@ body {
 
 .hover.dropSubGnbsub3 {
     display: block;
+}
+
+.dropSubGnb .sub3 ul {
+    margin-left: 725px;
+}
+
+.dropSubGnbsub4 {
+    display: none;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    z-index: 99;
+}
+
+.hover.dropSubGnbsub4 {
+    display: block;
+}
+
+.dropSubGnb .sub4 ul {
+    margin-left: 915px;
 }
 
 .dropSubGnb .drop_sub {
