@@ -31,9 +31,9 @@
             <div class="dropSubGnb dropSubGnbsub1">
                 <div class="drop_sub sub1 clearfix">
                     <ul>
-                        <li><a href="/FAQ/FAQ.html">앱트리가이드</a></li>
-                        <li><a href="/FAQ/FAQ_SignUp.html">운영정책</a></li>
-                        <li><a href="/main/faqList">FAQ</a></li>
+                        <li><a href="/guide/guide.html">앱트리가이드</a></li>
+                        <li><a href="Operational_policy.html">운영정책</a></li>
+                        <li><a href="/FAQ/FAQ.html">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -522,6 +522,15 @@
 
         </div>
     </div>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.gnb li a').hover(function () {
+                $('.dropSubGnbsub1').addClass('hover');
+            })
+        })
+    </script>
+
     <!-- Swiper JS -->
     <script src="/node_modules/swiper/dist/js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
