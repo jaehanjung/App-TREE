@@ -43,22 +43,22 @@
                             <div class="right">
                                 <p class="my_nick"><span class="GC font-b">dodori</span> 님</p>
                                 <div class="my_btn_area clearfix">
-                                    <a href="/my/noteList">
+                                    <a href="#">
                                         <div class="my_btn_mg">
                                             <p>미열람 쪽지 <span class="RC"> 0 통</span></p>
                                         </div>
                                     </a>
-                                    <a href="/my/myInfo">
+                                    <a href="#">
                                         <div class="my_btn_pro">
                                             <p>프로필 관리</p>
                                         </div>
                                     </a>
-                                    <a href="/comm/qnaList">
+                                    <a href="#">
                                         <div class="my_btn_inq">
                                             <p>1:1 문의 내역</p>
                                         </div>
                                     </a>
-                                    <a href="/my/subInfo">
+                                    <a href="#">
                                         <div class="my_btn_ch">
                                             <p>채널 관리</p>
                                         </div>
@@ -74,10 +74,54 @@
                             <p class="my_refu_mn">0 원</p>
                             <div class="mon_refu_btn_area clearfix">
                                 <div class="refu_app_btn">환급 신청</div>
-                                <a href="/refund/refundList">
+                                <a href="#">
                                     <div class="refu_list_btn">환급 내역</div>
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                    <div class="my_page_chart">
+                        <div class="my_table clearfix">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="mt_day_hd">날짜</td>
+                                        <td class="mt_ad_hd">광고명</td>
+                                        <td class="mt_cli_hd">유입</td>
+                                        <td class="mt_chg_hd">전환</td>
+                                        <td class="mt_pers_hd">전환율</td>
+                                        <td class="mt_mon_hd">수익금</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="mt_al_bt" colspan="2">총합</td>
+                                        <td class="mt_cli_tt">0</td>
+                                        <td class="mt_chg_tt">0</td>
+                                        <td class="mt_pers_tt">0%</td>
+                                        <td class="mt_mon_tt">0원</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="my_page_info">
+                        <p class="myp_info_ti">마이페이지 통계 이용안내</p>
+                        <div class="myp_info_dep clearfix">
+                            <p class="mypin_ti">1. 이용방법</p>
+                            <p class="myp_info_box clearfix">
+                                <span class="myp_txt">필터 내 제공하는 카테고리 날짜/광고/채널/OS 별로 선택하여 원하는 데이터를 확인 할 수 있습니다.</span>
+                                <span class="myp_txt">통계 데이터는 1~2분 이내 실시간 데이터로 업데이트 되며 네트워크 사정에 따라 1시간 이상 소요될 수 있습니다.</span>
+                            </p>
+                        </div>
+                        <div class="myp_info_dep clearfix">
+                            <p class="mypin_ti">2. 용어설명</p>
+                            <p class="myp_info_box clearfix">
+                                <span class="myp_txt">유입 : 광고 소재 링크를 통해 유입된 수</span>
+                                <span class="myp_txt">전환 : 유입된 유저를 통해 발생한 수익금 인정 전환 수</span>
+                                <span class="myp_txt">전환율 : 유입 대비 전환된 비율</span>
+                                <span class="myp_txt">수익 : 발생한 총 수익금 (수익금 기준은 광고별 수익금 단가에 따라 상이함)</span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -125,6 +169,17 @@
 
         </div>
     </div>
+    <script>
+        let Check = document.querySelector(".fil_sel_text");
+        let CheckHistory = document.querySelector(".filterSelect");
+        Check.addEventListener("click", function () {
+            if (CheckHistory.classList.contains("active")) {
+                CheckHistory.classList.remove("active");
+            } else {
+                CheckHistory.classList.add("active");
+            }
+        })
+    </script>
 </body>
 
 </html>

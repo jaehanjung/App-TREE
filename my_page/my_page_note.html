@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>쪽지함</title>
+    <link rel="stylesheet" href="/css/my_page_note.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- 헤더영역 공통 -->
+        <header class="header">
+            <div class="header_content content">
+                <div class="header_menu">
+                    <h1 class="logo"><a href="/index.html"><img src="/img/logo.png" alt=""></a></h1>
+                </div>
+            </div>
+        </header>
+        <!-- 메인영역 -->
+        <main class="my_page_note_main">
+            <div class="my_page_note content">
+                <div class="my_page_note_contents">
+                    <div class="my_page_note_title">
+                        <p>쪽지함</p>
+                    </div>
+                    <div class="my_page_note_tapBox">
+                        <form method="GET">
+                            <input type="hidden" value="">
+                            <select class="tapSel">
+                                <option value="">전체</option>
+                                <option value="nttitle">제목</option>
+                                <option value="ntcont">내용</option>
+                            </select>
+                            <div class="miniSearchBox">
+                                <input type="text" placeholder="Search" class="searchText" value="">
+                                <img src="/img/searchIcon.png" alt="검색아이콘">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="my_page_note_boardBox">
+                        <div class="my_page_note_boardList hoverNone clearfix">
+                            <div class="my_page_note_boardList_title category">제목</div>
+                            <div class="my_page_note_boardList_data category">등록일</div>
+                            <div class="my_page_note_boardList_Reading category lastRi">열람</div>
+                        </div>
+                        <!-- 분류 필독 빨간색 라인 -->
+                        <a href="#">
+                            <div class="my_page_note_boardList BGC clearfix hover">
+                                <div class="my_page_note_boardList_title inden30">1월 환급공지</div>
+                                <div class="my_page_note_boardList_data boradSubTxt">2018-12-31 10:35:15</div>
+                                <div class="my_page_note_boardList_Reading boradSubTxt lastRi">14</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="my_page_note_boardList BGC clearfix hover">
+                                <div class="my_page_note_boardList_title inden30">불법 광고, 부정 홍보 신고하자!</div>
+                                <div class="my_page_note_boardList_data boradSubTxt">2018-06-15 10:48:21</div>
+                                <div class="my_page_note_boardList_Reading boradSubTxt lastRi">609</div>
+                            </div>
+                        </a>
+                        <!-- 분류 신규광고 초록색라인 -->
+                        <a href="#">
+                            <div class="my_page_note_boardList clearfix hover">
+                                <div class="my_page_note_boardList_title inden30">[CPA - 상담신청] BBQ 창업상담신청</div>
+                                <div class="my_page_note_boardList_data boradSubTxt">2019-01-17 11:55:25</div>
+                                <div class="my_page_note_boardList_Reading boradSubTxt lastRi">1</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="my_page_note_boardList clearfix hover">
+                                <div class="my_page_note_boardList_title inden30">[CPA - 상담신청] BBQ 창업상담신청</div>
+                                <div class="my_page_note_boardList_data boradSubTxt">2019-01-17 11:55:25</div>
+                                <div class="my_page_note_boardList_Reading boradSubTxt lastRi">1</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- 푸터영역 -->
+        <div class="footer">
+            <div class="footer_top_content">
+                <div class="footer_top content clearfix">
+                    <div class="left">
+                        <h3 class="foo_logo"><img src="/img/footerlogo.png" title="(주)앱트리"><span class="foo_name">(주)앱트리</span>
+                        </h3>
+                        <p>대표이사 : 송은희<span class="foo_bar">ㅣ</span>주소:서울특별시 금천구 가산디지털1로 186, 704호(제이플라츠)<span class="foo_bar">ㅣ</span>사업자등록번호
+                            : 420-87-00452</p>
+                        <p>ⓒ APPTREE 2016 Crop. All Rights Reserved.</p>
+                    </div>
+                    <div class="right">
+                        <div class="customerBox">
+                            <div class="customer clearfix">
+                                <p class="fooC">1599-6514</p>
+                                <p class="custo">고객센터<br><span class="custo_y">공휴일 휴무</span></p>
+                            </div>
+                            <p class="ent"><span class="fooC">E-mail.</span> help@apptree.co.kr <span class="fooC">NATE
+                                    ON.</span>
+                                powerad@nate.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom_content clearfix">
+                <div class="footer_bottom content">
+                    <div class="link_menuBox">
+                        <ul>
+                            <li><a href="#">서비스소개</a></li>
+                            <li><a href="#">광고리스트</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">1:1문의</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li class="linklast"><a href="#">개인정보취급방침</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
