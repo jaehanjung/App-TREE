@@ -154,9 +154,168 @@ main {
     margin-top: 13px;
     text-align: center;
 }
-.lv_1{
+
+.lv_1 {
     color: #a54521;
     font-weight: 700;
+}
+
+.lv_up_btn {
+    width: 143px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #00c931;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.my_nick {
+    width: 302px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 19.95px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 19px;
+    margin-bottom: 29px;
+}
+
+.GC {
+    color: #26cd48;
+}
+
+.font-b {
+    font-weight: 700;
+}
+
+.my_btn_area {
+    width: 302px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.my_btn_area .my_btn_mg {
+    width: 168px;
+    height: 50px;
+    border: 2px solid #e2e1e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    background: url(/img/my_me.png) no-repeat;
+    background-position: 8px 16px;
+    position: relative;
+}
+
+.my_btn_area .my_btn_mg p {
+    width: 110px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #808080;
+    font-weight: 400;
+    float: right;
+    margin: 16px auto;
+    height: 15px;
+    line-height: 15px;
+}
+
+.RC {
+    color: #e95151;
+}
+
+.my_btn_area .my_btn_pro {
+    width: 124px;
+    height: 50px;
+    border: 2px solid #e2e1e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    background: url(/img/my_pro.png) no-repeat;
+    background-position: 10px 12px;
+}
+
+.my_btn_area .my_btn_pro p {
+    width: 81px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    float: right;
+    margin: 16px auto;
+    color: #808080;
+}
+
+.my_btn_area .my_btn_inq {
+    width: 168px;
+    height: 50px;
+    border: 2px solid #e2e1e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: url(/img/my_inq.png) no-repeat;
+    background-position: 8px 10px;
+}
+
+.my_btn_inq p {
+    width: 110px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #808080;
+    font-weight: 400;
+    float: right;
+    margin: 16px auto;
+    height: 15px;
+    line-height: 15px;
+}
+
+.my_btn_area .my_btn_ch {
+    width: 124px;
+    height: 50px;
+    border: 2px solid #e2e1e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+    background: url(/img/my_chan.png) no-repeat;
+    background-position: 6px 12px;
+}
+
+.my_btn_ch p {
+    width: 78px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    float: right;
+    margin: 16px auto;
+    color: #808080;
+}
+
+.my_money_box {
+    width: 528px;
+    height: 237px;
+    border: 2px solid #e2e1e1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 25px;
+}
+
+.my_money_box .total_money {
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #e2e1e1;
+    background-color: #f3f3f3;
+    text-align: center;
 }
 
 /* footer영역 */
