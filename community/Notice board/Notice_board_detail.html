@@ -12,10 +12,45 @@
 <body>
     <div class="container">
         <!-- 헤더영역 공통 -->
-        <header class="header">
-            <div class="header_content content">
+        <header class="header clearfix">
+            <div class="header_content content clearfix">
                 <div class="header_menu">
                     <h1 class="logo"><a href="/index.html"><img src="/img/logo.png" alt=""></a></h1>
+                </div>
+                <div class="nav clearfix">
+                    <ul class="gnb">
+                        <li><a class="gnb_sub1" href="#">앱트리란?</a></li>
+                        <li><a href="/Advertising/Advertising.html">광고리스트</a></li>
+                        <li><a class="gnb_sub3" href="#">커뮤니티</a></li>
+                        <li class="gnblast"><a class="gnb_sub4" href="#">마이페이지</a></li>
+                    </ul>
+                </div>
+                <div class="signBtn">회원가입</div>
+            </div>
+            <div class="dropSubGnb dropSubGnbsub1">
+                <div class="drop_sub sub1 clearfix">
+                    <ul>
+                        <li><a href="/guide/guide.html">앱트리가이드</a></li>
+                        <li><a href="/Operational_policy.html">운영정책</a></li>
+                        <li><a href="/FAQ/FAQ.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropSubGnb dropSubGnbsub3">
+                <div class="drop_sub sub3 clearfix">
+                    <ul>
+                        <li><a href="/community/Notice board/Notice_board_home.html">공지게시판</a></li>
+                        <li><a href="#">앱트리 랭킹</a></li>
+                        <li><a href="#">신고게시판</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropSubGnb dropSubGnbsub4">
+                <div class="drop_sub sub4">
+                    <ul>
+                        <li><a href="/my_page/my_page.html">마이페이지</a></li>
+                        <li><a href="#">시간별 통계</a></li>
+                    </ul>
                 </div>
             </div>
         </header>
@@ -105,6 +140,42 @@
 
         </div>
     </div>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.gnb_sub1').hover(function () {
+                $('.dropSubGnbsub1').addClass("hover");
+            })
+            $('.dropSubGnbsub1').hover(function () {
+                $('.dropSubGnbsub1').addClass("hover");
+            })
+            $('main').hover(function () {
+                $('.dropSubGnbsub1').removeClass("hover");
+            })
+        })
+        $(function () {
+            $('.gnb_sub3').hover(function () {
+                $('.dropSubGnbsub3').addClass("hover");
+            })
+            $('.dropSubGnbsub3').hover(function () {
+                $('.dropSubGnbsub3').addClass("hover");
+            })
+            $('main').hover(function () {
+                $('.dropSubGnbsub3').removeClass("hover");
+            })
+        })
+        $(function () {
+            $('.gnb_sub4').hover(function () {
+                $('.dropSubGnbsub4').addClass("hover");
+            })
+            $('.dropSubGnbsub4').hover(function () {
+                $('.dropSubGnbsub4').addClass("hover");
+            })
+            $('main').hover(function () {
+                $('.dropSubGnbsub4').removeClass("hover");
+            })
+        })
+    </script>
 </body>
 
 </html>
